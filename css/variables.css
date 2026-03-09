@@ -1,0 +1,68 @@
+/* Math Club - Design Tokens (Blue Theme) */
+
+:root {
+  /* Colors - Blue palette */
+  --color-bg: #050810;
+  --color-bg-elevated: #0c1320;
+  --color-bg-card: #0f1826;
+  --color-border: rgba(59, 130, 246, 0.15);
+  --color-border-hover: rgba(59, 130, 246, 0.35);
+  
+  --color-text: #f0f4ff;
+  --color-text-muted: #94a3c4;
+  --color-text-dim: #64748b;
+  
+  --color-blue-50: #eff6ff;
+  --color-blue-200: #bfdbfe;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+  --color-blue-700: #1d4ed8;
+  --color-blue-800: #1e40af;
+  --color-blue-900: #1e3a8a;
+  
+  --color-accent: #3b82f6;
+  --color-accent-hover: #60a5fa;
+  --color-accent-muted: rgba(59, 130, 246, 0.2);
+  
+  --gradient-blue: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
+  --gradient-blue-subtle: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
+  --gradient-blue-radial: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.2), transparent);
+  
+  --color-success: #22d3ee;
+  --color-success-muted: rgba(34, 211, 238, 0.2);
+  
+  /* Typography */
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --section-padding: clamp(3.5rem, 10vw, 5rem);
+  
+  /* Layout */
+  --max-width: 72rem;
+  --nav-height: 4rem;
+  
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+  
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 8px 40px rgba(0, 0, 0, 0.4);
+  --shadow-blue: 0 4px 20px rgba(59, 130, 246, 0.25);
+}
